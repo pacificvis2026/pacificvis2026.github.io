@@ -1,109 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Responsive Email View</title>
-  <style>
-    body {
-      margin: 0;
-      background: #f2f2f2;
-      font-family: Arial, sans-serif;
-    }
-
-    .email-container {
-      max-width: 600px;
-      margin: 30px auto;
-      background: #ffffff;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      overflow: hidden;
-    }
-
-    .email-header {
-      padding: 16px;
-      border-bottom: 1px solid #e0e0e0;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .logo {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #eee;
-    }
-
-    .sender-info {
-      font-size: 14px;
-    }
-
-    .sender-info strong {
-      display: block;
-      color: #333;
-    }
-
-    .subject {
-      padding: 20px 16px 10px;
-      font-size: 20px;
-      font-weight: bold;
-      color: #222;
-    }
-
-    .email-body {
-      padding: 0 16px 20px;
-      font-size: 15px;
-      color: #444;
-      line-height: 1.6;
-    }
-
-    .email-footer {
-      border-top: 1px solid #eee;
-      font-size: 13px;
-      padding: 16px;
-      color: #888;
-      background-color: #fafafa;
-    }
-
-    @media (max-width: 640px) {
-      .email-container {
-        border-radius: 0;
-        box-shadow: none;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-  <div class="email-container">
-    <div class="email-header">
-      <div class="logo"></div>
-      <div class="sender-info">
-        <strong>John Doe &lt;john@example.com&gt;</strong>
-        to you · Jul 1, 2025
-      </div>
+    <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <ul class="nav-links">
+                <li class="dropdown">Contribute
+                    <ul class="dropdown-content">
+                        <li><a href="#">Call for Papers</a></li>
+                        <li><a href="#">Submission Guidelines</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">Program
+                    <ul class="dropdown-content">
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Speakers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Registration</a></li>
+                <li><a href="#">Committees</a></li>
+                <li class="dropdown">Venue
+                    <ul class="dropdown-content">
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Accommodation</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">Travel
+                    <ul class="dropdown-content">
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Transport</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="splash">
+        <img src="images/splash.jpg" alt="Splash Image">
     </div>
-    <div class="subject">
-      Welcome to Our Platform – Let’s Get Started!
-    </div>
-    <div class="email-body">
-      Hi Jesse,<br><br>
-
-      Thanks for signing up. We're excited to have you on board!<br><br>
-
-      Here's what you can do next:<br>
-      - Explore your dashboard<br>
-      - Customize your settings<br>
-      - Start your first project<br><br>
-
-      If you need any help, feel free to reply to this email.<br><br>
-
-      Cheers,<br>
-      The Team
-    </div>
-    <div class="email-footer">
-      This message was sent to you by Example Inc. 123 Business Rd, NY 10001.
-    </div>
-  </div>
+    <main>
+        <h1>Welcome to the Event</h1>
+        <h2>Introduction</h2>
+        <p>This is a sample paragraph for the homepage. Customize this content as needed.</p>
+    </main>
 </body>
 </html>
