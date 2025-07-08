@@ -99,7 +99,7 @@ button {
 .logo {
   margin-right: 1.5rem;
 }
-
+.logo img { width: 200px; }
 #nav-menu {
   border-bottom: var(--border);
 }
@@ -320,4 +320,6 @@ button {
   .right-container {
     display: none;
   }
+  .logo {width: 80%}
+  .logo img { widt: 100%; }
 }
