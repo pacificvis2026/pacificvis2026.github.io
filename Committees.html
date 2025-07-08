@@ -8,205 +8,185 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="logo"><img src="images/pacificvis-2026-logo.png"></div>
-        <nav>
-            <ul class="nav-links">
-                <li class="dropdown">Contribute
-                    <ul class="dropdown-content">
-                        <li><a href="Common-call-for-papers.html" class="dropdown-item fade-page">Common Call for Papers</a></li>
-                        <li><a href="TVCG-journal-papers.html" class="dropdown-item fade-page">TVCG Journal Papers</a></li>
-                        <li><a href="Conference-papers.html" class="dropdown-item fade-page">Conference Papers</a></li>
-                        <li><a href="Short-papers.html" class="dropdown-item fade-page">Short Papers (VisNotes)</a></li>
-                        <li><a href="Poster.html" class="dropdown-item fade-page">Posters</a></li>
-                        <li><a href="Workshop.html" class="dropdown-item fade-page">Workshops</a></li>
-                        <li><a href="Paper-Topics.html" class="dropdown-item fade-page">Paper Topics</a></li>
-                        <li><a href="Paper-Submission-Guidelines.html" class="dropdown-item fade-page">Paper Submission Guidelines</a></li>
-                    </ul>
-                </li>
-<!--
-                <li class="dropdown">Program
-                    <ul class="dropdown-content">
-                        <li><a href="ConferenceProgram.html" class="dropdown-item fade-page">Conference Program</a></li>
-                        <li><a href="Keynotes.html" class="dropdown-item fade-page">Keynotes</a></li>
-                        <li><a href="TechnicalSessions.html" class="dropdown-item fade-page">Technical Sessions</a></li>
-                        <li><a href="PostersAndVisualStorytelling.html" class="dropdown-item fade-page">Posters & Visual Storytelling</a></li>
-                        <li><a href="VisMeetsAIWorkshop.html" class="dropdown-item fade-page">VisMeetsAI Workshop</a></li>
-                        <li><a href="DPH-VisWorkshop.html" class="dropdown-item fade-page">DPH-Vis Workshop</a></li>
-                        <li><a href="SciVisWorkshop.html" class="dropdown-item fade-page">SciVis Workshop</a></li>
-                    </ul>
-                </li>
--->
-                <li><a href="Registration.html">Registration</a></li>
-                <li><a href="Committees.html">Committees</a></li>
-                <li class="dropdown">Venue
-                    <ul class="dropdown-content">
-                        <li><a href="VenueInformation.html" class="dropdown-item fade-page">Venue Information</a></li>
-                        <li><a href="Reception.html" class="dropdown-item fade-page">Reception</a></li>
-                        <li><a href="Banquet.html" class="dropdown-item fade-page">Banquet</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">Travel
-                    <ul class="dropdown-content">
-                        <li><a href="AirportToSydneyCBD.html" class="dropdown-item fade-page">Airport to Sydney CBD</a></li>
-                        <li><a href="VisaInformation.html" class="dropdown-item fade-page">Visa Information</a></li>
-                        <li><a href="ChinaVisitors.html" class="dropdown-item fade-page" style="display:none;">大陆与会者申请来台</a></li>
-                        <li><a href="Accommodations.html" class="dropdown-item fade-page">Accommodations</a></li>
-                        <li><a href="TouristAttractions.html" class="dropdown-item fade-page">Tourist Attractions</a></li>
-                        <li><a href="FoodAndShopping.html" class="dropdown-item fade-page">Food and Shopping</a></li>
-                    </ul>
-                </li>
-                <li><a href="Contact.html">Contact</a></li>
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/">
+            <img
+              src="images/pacificvis-2026-logo.png"
+            
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li><a class="nav-link" href="/"><a href="/">Home</a></li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Contribute  ▾
+                </button>
+                <div id="dropdown" class="dropdown">
+                  <ul role="menu">
+                  <li><a class="dropdown-link"  href="common-call-for-papers.html" class="dropdown-item fade-page">Common Call for Papers</a></li>
+                      <!--    <li><a class="dropdown-link"  href="TVCG-journal-papers.html" class="dropdown-item fade-page">TVCG Journal Papers</a></li>
+                        <li><a class="dropdown-link"  href="conference-papers.html" class="dropdown-item fade-page">Conference Papers</a></li>
+                        <li><a  class="dropdown-link" href="short-papers.html" class="dropdown-item fade-page">Short Papers (VisNotes)</a></li>
+                        <li><a class="dropdown-link"  href="poster.html" class="dropdown-item fade-page">Posters</a></li>
+                        <li><a class="dropdown-link"  href="workshop.html" class="dropdown-item fade-page">Workshops</a></li>
+                        <li><a class="dropdown-link" href="paper-topics.html" class="dropdown-item fade-page">Paper Topics</a></li>
+                        <li><a class="dropdown-link"  href="paper-submission-guidelines.html" class="dropdown-item fade-page">Paper Submission Guidelines</a></li> !-->
+                  </ul>
+                </div>
+              </li>
+            <!--   <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Program  ▾
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+              <li><a class="dropdown-link" href="conference-program.html" class="dropdown-item fade-page">Conference Program</a></li>
+                        <li><a class="dropdown-link" href="keynotes.html" class="dropdown-item fade-page">Keynotes</a></li>
+                        <li><a class="dropdown-link" href="technical-sessions.html" class="dropdown-item fade-page">Technical Sessions</a></li>
+                        <li><a class="dropdown-link" href="posters-and-visualstorytelling.html" class="dropdown-item fade-page">Posters & Visual Storytelling</a></li>
+                        <li><a class="dropdown-link" href="vis-meets-AI-workshop.html" class="dropdown-item fade-page">VisMeetsAI Workshop</a></li>
+                        <li><a class="dropdown-link" href="DPH-vis-workshop.html" class="dropdown-item fade-page">DPH-Vis Workshop</a></li>
+                        <li><a class="dropdown-link" href="sci-vis-workshop.html" class="dropdown-item fade-page">SciVis Workshop</a></li>
+                 </ul>
+                </div>
+              </li> 
+                <li><a class="nav-link" href="registration.html">Registration</a></li>!-->
+     			<li><a class="nav-link" href="committees.html">Committees</a></li>
+     		<!-- 	 <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Venue  ▾
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                	<li><a class="dropdown-link"  href="venue-information.html" class="dropdown-item fade-page">Venue Information</a></li>
+        			<li><a class="dropdown-link"  href="reception.html" class="dropdown-item fade-page">Reception</a></li>
+         			<li><a class="dropdown-link"  href="banquet.html" class="dropdown-item fade-page">Banquet</a></li>     </ul>
+                </div>
+              </li>
+            <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                Travel  ▾
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                			<li><a class="dropdown-link"  href="airport-to-sydney-CBD.html" class="dropdown-item fade-page">Airport to Sydney CBD</a></li>
+                        <li><a class="dropdown-link"  href="visa-information.html" class="dropdown-item fade-page">Visa Information</a></li>
+                        <li><a class="dropdown-link"  href="china-visitors.html" class="dropdown-item fade-page" style="display:none;">大陆与会者申请来台</a></li>
+                        <li><a class="dropdown-link"  href="accommodations.html" class="dropdown-item fade-page">Accommodations</a></li>
+                        <li><a class="dropdown-link"  href="tourist-attractions.html" class="dropdown-item fade-page">Tourist Attractions</a></li>
+                        <li><a class="dropdown-link" href="food-and-shopping.html" class="dropdown-item fade-page">Food and Shopping</a></li>   
+         			 </ul>
+                </div>
+              </li> 
+                   <li><a class="nav-link" href="contact.html">Contact</a></li> !-->
             </ul>
-        </nav>
+          </nav>
+        </div>
+        <div class="nav-end">
+
+          <div
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ><img src="images/bars-solid.svg" style="width: 30px">
+     
+          </div>
+        </div>
+      </div>
     </header>
     <div class="splash">
         <img src="images/pacificvis-2026-banner.png" alt="Splash Image">
     </div>
     <main>
-<style>
-   .section {
-      margin-bottom: 2rem;
-    }
-    .role {
-      font-weight: bold;
-      margin-top: 1rem;
-    }
-    .person {
-      margin-left: 1rem;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-    }
-    th, td {
-      padding: 0.5rem;
-      border: 1px solid #ccc;
-    }
-    th {
-      background-color: #f4f4f4;
-      text-align: left;
-    }
-  </style>
+
 </head>
 <body>
   <h1>Organization Committee Members</h1>
 
-  <div class="section">
-    <div class="role">General Chair</div>
-    <div class="person">Ko-Chih Wang – National Taiwan Normal University</div>
+    <h3>Conference Chairs</h3>
+    <p>Quang Vinh Nguyen (Western Sydney University), Weidong (Tony) Huang 
+     (University of Technology Sydney), Christy Jie Liang University of Technology Sydney</p>
 
-    <div class="role">Papers co-chairs (Journal Track)</div>
-    <div class="person">Melanie Tory – Roux Institute at Northeastern University</div>
-    <div class="person">Ivan Viola – King Abdullah University of Science and Technology</div>
-    <div class="person">Yingcai Wu – Zhejiang University</div>
+    <h3>Papers co-chairs (Journal Track)</h3>
+    <p>Ivan Viola: King Abdullah University of Science and Technology (KAUST)<br>
+Tim Dwyer: Monash University<br>
+Jian Zhao: University of Waterloo
+</p>
 
-    <div class="role">Papers co-chairs (Conference Track)</div>
-    <div class="person">Takayuki Itoh – Ochanomizu University</div>
-    <div class="person">Filip Sadlo – Heidelberg University</div>
-    <div class="person">Yu-Shuen Wang – National Yang Ming Chiao Tung University</div>
+    <h3>Papers co-chairs (Conference Track)</h3>
+    <p>Giuseppe Liotta: University of Perugia<br>
+Siming Chen: Fudan University<br>
+Filip Sadlo: Heidelberg University</p>
 
-    <div class="role">VisNotes co-chairs</div>
-    <div class="person">Cindy Xiong Bearfield – Georgia Institute of Technology</div>
-    <div class="person">Siming Chen – Fudan University</div>
-    <div class="person">Wen-Chieh (Steve) Lin – National Yang Ming Chiao Tung University</div>
+    <h3>VisNotes co-chairs</h3>
+    <p>Sungahn Ko: POSTECH<br>
+Cindy Xiong Bearfield: Georgia Institute of Technology<br>
+Yong Wang: Nanyang Technological University (NTU)
+</p>
 
-    <div class="role">Posters co-chairs</div>
-    <div class="person">Tung-Ju Hsieh – National Taipei University of Technology</div>
-    <div class="person">Masahiko Itoh – Hokkaido Information University</div>
-    <div class="person">Jaemin Jo – Sungkyunkwan University</div>
+    <h3>Posters co-chairs</h3>
+    <p>Dongyu Liu: University of California at Davis<br>
+Sarah Goodwin: Monash University<br>
+Jaemin Jo: Sungkyunkwan University
+</p>
 
-    <div class="role">Visual Data Storytelling Contest co-chairs</div>
-    <div class="person">Chris Bryan – Arizona State University</div>
-    <div class="person">Juanjuan Long – Jiangnan University</div>
+    <h3>Local organization chair</h3>
+    <p>Dr Jolin Qu (WSU) (Z.Qu@westernsydney.edu.au)<br>
+     Dr Chris Shen (chris.shen@uts.edu.au)</div>
 
-    <div class="role">Local organization chair</div>
-    <div class="person">Chun-Fa Chang – National Taiwan Normal University</div>
+    <h3>Financial chair</h3>
+    <p>Financial office, Helen Dong (info@hdaccountants.com.au)</div>
 
-    <div class="role">Financial chair</div>
-    <div class="person">Hsiang-Han Chen – National Taiwan Normal University</div>
+    <h3>Registration chair</h3>
+    <p>Yuting Xu (yuting.xu@student.uts.edu.au)</div>
 
-    <div class="role">Registration chair</div>
-    <div class="person">Ming-Te Chi – National Chengchi University</div>
+ 
 
-    <div class="role">DIA chair</div>
-    <div class="person">Shih-Hsuan Hung – National Tsing Hua University</div>
+    <h3>Publicity co-chairs</h3>
+    <p>Dr Angelique Mcinnes (Macquarie) <br>Nina Errey (nina.errey@uts.edu.au)<br>
+     Dr Jesse Tran (Gemtracks) (Jesse.Tran@westernsydney.edu.au)</p>
+     
+    <h3>Sponsorship chairs</h3>
+    <p>Dr Nader Khalifa (VU) (Nader.Khalifa@vu.edu.au)<p> Andrew Crawford (ACS)</p>
 
-    <div class="role">Publication chair</div>
-    <div class="person">Yi-Jheng Huang – Yuan Ze University</div>
+    <h3>DIA chair (Diversity, Inclusion, Accessibility)</h3>
+    <p>Neha Sundar Naik (22085663@student.westernsydney.edu.au)<br>
+Qingsong Chen
+(davidqingsongchen@gmail.com)
+</p>
 
-    <div class="role">Publicity co-chairs</div>
-    <div class="person">Yi Han – National Sun Yat-sen University</div>
-    <div class="person">Guan Li – Computer Network Information Center, CAS</div>
-    <div class="person">Hsiang-Yun Wu – St. Pölten University of Applied Sciences</div>
-
-    <div class="role">Secretariat</div>
-    <div class="person">Chun-I Chu – National Taiwan Normal University</div>
-
-    <div class="role">Advisors</div>
-    <div class="person">Bing-Yu Chen – National Taiwan University</div>
-    <div class="person">Jun-Cheng Chen – Academia Sinica</div>
-    <div class="person">Chuan-Kai Yang – National Taiwan University of Science and Technology</div>
-
-    <div class="role">Steering committee</div>
-    <div class="person">Issei Fujishiro – Keio University</div>
-    <div class="person">Wei Chen – Zhejiang University</div>
-    <div class="person">Seokhee Hong – University of Sydney</div>
-    <div class="person">Takayuki Itoh – Ochanomizu University</div>
-    <div class="person">Kwan-Liu Ma – University of California, Davis</div>
-    <div class="person">Jinwook Seo – Seoul National University</div>
-    <div class="person">Xiaoru Yuan – Peking University</div>
-
-    <div class="role">Vis-Meets-AI Workshop co-chairs</div>
-    <div class="person">Takanori Fujiwara – Linköping University</div>
-    <div class="person">Junpeng Wang – Visa Research</div>
-
-    <div class="role">Workshop on Visualization for the Digital and Public Humanities co-chairs</div>
-    <div class="person">Soumya Dutta – IIT Kanpur</div>
-    <div class="person">Satoshi Tanaka – Ritsumeikan University</div>
-  </div>
-
-  <div class="section">
-    <h2>Journal Track Program Committee Members</h2>
-    <table>
-      <thead>
-        <tr><th>Name</th><th>Affiliation</th></tr>
-      </thead>
-      <tbody>
-        <!-- Insert members here as <tr><td>Name</td><td>Affiliation</td></tr> -->
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section">
-    <h2>Conference Track Program Committee Members</h2>
-    <table>
-      <thead>
-        <tr><th>Name</th><th>Affiliation</th></tr>
-      </thead>
-      <tbody>
-        <!-- Insert members here as <tr><td>Name</td><td>Affiliation</td></tr> -->
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section">
-    <h2>VisNote Program Committee Members</h2>
-    <table>
-      <thead>
-        <tr><th>Name</th><th>Affiliation</th></tr>
-      </thead>
-      <tbody>
-        <!-- Insert members here as <tr><td>Name</td><td>Affiliation</td></tr> -->
-      </tbody>
-    </table>
-  </div>
-  
-  
-  
-  
+ 
   
     </main>
+    <footer><p>&copy; IEEE Pacific Visualization Conference 2026</p></footer>
+     <script src="js/script.js"></script>
 </body>
 </html>
