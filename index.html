@@ -3,94 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>PacificVis 2026</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+   
 </head>
-<body>
-    <header>
-        <div class="logo"><img src="images/pacificvis-2026-logo.png"></div>
-        <nav>
-            <ul class="nav-links">
-                <li class="dropdown">Contribute
-                    <ul class="dropdown-content">
-                        <li><a href="Common-call-for-papers.html" class="dropdown-item fade-page">Common Call for Papers</a></li>
-                        <li><a href="TVCG-journal-papers.html" class="dropdown-item fade-page">TVCG Journal Papers</a></li>
-                        <li><a href="Conference-papers.html" class="dropdown-item fade-page">Conference Papers</a></li>
-                        <li><a href="Short-papers.html" class="dropdown-item fade-page">Short Papers (VisNotes)</a></li>
-                        <li><a href="Poster.html" class="dropdown-item fade-page">Posters</a></li>
-                        <li><a href="Workshop.html" class="dropdown-item fade-page">Workshops</a></li>
-                        <li><a href="Paper-Topics.html" class="dropdown-item fade-page">Paper Topics</a></li>
-                        <li><a href="Paper-Submission-Guidelines.html" class="dropdown-item fade-page">Paper Submission Guidelines</a></li>
-                    </ul>
-                </li>
-<!--
-                <li class="dropdown">Program
-                    <ul class="dropdown-content">
-                        <li><a href="ConferenceProgram.html" class="dropdown-item fade-page">Conference Program</a></li>
-                        <li><a href="Keynotes.html" class="dropdown-item fade-page">Keynotes</a></li>
-                        <li><a href="TechnicalSessions.html" class="dropdown-item fade-page">Technical Sessions</a></li>
-                        <li><a href="PostersAndVisualStorytelling.html" class="dropdown-item fade-page">Posters & Visual Storytelling</a></li>
-                        <li><a href="VisMeetsAIWorkshop.html" class="dropdown-item fade-page">VisMeetsAI Workshop</a></li>
-                        <li><a href="DPH-VisWorkshop.html" class="dropdown-item fade-page">DPH-Vis Workshop</a></li>
-                        <li><a href="SciVisWorkshop.html" class="dropdown-item fade-page">SciVis Workshop</a></li>
-                    </ul>
-                </li>
--->
-                <li><a href="Registration.html">Registration</a></li>
-                <li><a href="Committees.html">Committees</a></li>
-                <li class="dropdown">Venue
-                    <ul class="dropdown-content">
-                        <li><a href="VenueInformation.html" class="dropdown-item fade-page">Venue Information</a></li>
-                        <li><a href="Reception.html" class="dropdown-item fade-page">Reception</a></li>
-                        <li><a href="Banquet.html" class="dropdown-item fade-page">Banquet</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">Travel
-                    <ul class="dropdown-content">
-                        <li><a href="AirportToSydneyCBD.html" class="dropdown-item fade-page">Airport to Sydney CBD</a></li>
-                        <li><a href="VisaInformation.html" class="dropdown-item fade-page">Visa Information</a></li>
-                        <li><a href="ChinaVisitors.html" class="dropdown-item fade-page" style="display:none;">大陆与会者申请来台</a></li>
-                        <li><a href="Accommodations.html" class="dropdown-item fade-page">Accommodations</a></li>
-                        <li><a href="TouristAttractions.html" class="dropdown-item fade-page">Tourist Attractions</a></li>
-                        <li><a href="FoodAndShopping.html" class="dropdown-item fade-page">Food and Shopping</a></li>
-                    </ul>
-                </li>
-                <li><a href="Contact.html">Contact</a></li>
+<body>    
+      <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/">
+            <img
+              src="images/pacificvis-2026-logo.png"
+            
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li><a class="nav-link" href="/"><a href="/">Home</a></li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Contribute  ▾
+                </button>
+                <div id="dropdown" class="dropdown">
+                  <ul role="menu">
+                  <li><a class="dropdown-link"  href="common-call-for-papers.html" class="dropdown-item fade-page">Common Call for Papers</a></li>
+                      <!--    <li><a class="dropdown-link"  href="TVCG-journal-papers.html" class="dropdown-item fade-page">TVCG Journal Papers</a></li>
+                        <li><a class="dropdown-link"  href="conference-papers.html" class="dropdown-item fade-page">Conference Papers</a></li>
+                        <li><a  class="dropdown-link" href="short-papers.html" class="dropdown-item fade-page">Short Papers (VisNotes)</a></li>
+                        <li><a class="dropdown-link"  href="poster.html" class="dropdown-item fade-page">Posters</a></li>
+                        <li><a class="dropdown-link"  href="workshop.html" class="dropdown-item fade-page">Workshops</a></li>
+                        <li><a class="dropdown-link" href="paper-topics.html" class="dropdown-item fade-page">Paper Topics</a></li>
+                        <li><a class="dropdown-link"  href="paper-submission-guidelines.html" class="dropdown-item fade-page">Paper Submission Guidelines</a></li> !-->
+                  </ul>
+                </div>
+              </li>
+            <!--   <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Program  ▾
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+              <li><a class="dropdown-link" href="conference-program.html" class="dropdown-item fade-page">Conference Program</a></li>
+                        <li><a class="dropdown-link" href="keynotes.html" class="dropdown-item fade-page">Keynotes</a></li>
+                        <li><a class="dropdown-link" href="technical-sessions.html" class="dropdown-item fade-page">Technical Sessions</a></li>
+                        <li><a class="dropdown-link" href="posters-and-visualstorytelling.html" class="dropdown-item fade-page">Posters & Visual Storytelling</a></li>
+                        <li><a class="dropdown-link" href="vis-meets-AI-workshop.html" class="dropdown-item fade-page">VisMeetsAI Workshop</a></li>
+                        <li><a class="dropdown-link" href="DPH-vis-workshop.html" class="dropdown-item fade-page">DPH-Vis Workshop</a></li>
+                        <li><a class="dropdown-link" href="sci-vis-workshop.html" class="dropdown-item fade-page">SciVis Workshop</a></li>
+                 </ul>
+                </div>
+              </li> 
+                <li><a class="nav-link" href="registration.html">Registration</a></li>!-->
+     			<li><a class="nav-link" href="committees.html">Committees</a></li>
+     		<!-- 	 <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Venue  ▾
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                	<li><a class="dropdown-link"  href="venue-information.html" class="dropdown-item fade-page">Venue Information</a></li>
+        			<li><a class="dropdown-link"  href="reception.html" class="dropdown-item fade-page">Reception</a></li>
+         			<li><a class="dropdown-link"  href="banquet.html" class="dropdown-item fade-page">Banquet</a></li>     </ul>
+                </div>
+              </li>
+            <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                Travel  ▾
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                			<li><a class="dropdown-link"  href="airport-to-sydney-CBD.html" class="dropdown-item fade-page">Airport to Sydney CBD</a></li>
+                        <li><a class="dropdown-link"  href="visa-information.html" class="dropdown-item fade-page">Visa Information</a></li>
+                        <li><a class="dropdown-link"  href="china-visitors.html" class="dropdown-item fade-page" style="display:none;">大陆与会者申请来台</a></li>
+                        <li><a class="dropdown-link"  href="accommodations.html" class="dropdown-item fade-page">Accommodations</a></li>
+                        <li><a class="dropdown-link"  href="tourist-attractions.html" class="dropdown-item fade-page">Tourist Attractions</a></li>
+                        <li><a class="dropdown-link" href="food-and-shopping.html" class="dropdown-item fade-page">Food and Shopping</a></li>   
+         			 </ul>
+                </div>
+              </li> 
+                   <li><a class="nav-link" href="contact.html">Contact</a></li> !-->
             </ul>
-        </nav>
+          </nav>
+        </div>
+        <div class="nav-end">
+
+          <div
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ><img src="images/bars-solid.svg" style="width: 30px">
+     
+          </div>
+        </div>
+      </div>
     </header>
+      
     <div class="splash">
         <img src="images/pacificvis-2026-banner.png" alt="Splash Image">
     </div>
     <main>
-  <h1>PacificVis 2025</h1>
+  <h1>PacificVis 2026</h1>
   <p>
-    IEEE Pacific Visualization Conference (PacificVis) was born in Kyoto in 2008 as an international event sponsored by IEEE Computer Society with the aim of promoting visualization research and technologies, especially in the Asian-Pacific region. Since then, we had a series of annual events in Beijing (2009), Taipei (2010), Hong Kong (2011), Songdo (2012), Sydney (2013), Yokohama (2014), Hangzhou (2015), Taipei (2016), Seoul (2017), Kobe (2018), Bangkok (2019), Tianjin (2020 and 2021, online), Tsukuba (2022, online), Seoul (2023), and Tokyo (2024). The 18th edition of PacificVis will take place at Chang Yung-fa Foundation International Convention Center in Taipei, Taiwan, and will be hosted by National Taiwan Normal University and Taipei ACM SIGGRAPH over April 22-25, 2025.
+    IEEE Pacific Visualization Conference (PacificVis) was born in Kyoto in 2008 as an international event sponsored by IEEE Computer Society with the aim of promoting visualization research and technologies, especially in the Asian-Pacific region. 
+    Since then, we had a series of annual events in Beijing (2009), Taipei (2010), Hong Kong (2011), Songdo (2012), Sydney (2013), Yokohama (2014), Hangzhou (2015), Taipei (2016), Seoul (2017), Kobe (2018), Bangkok (2019), Tianjin (2020 and 2021, online), Tsukuba (2022, online), Seoul (2023), Tokyo (2024) and Taipei (2025). 
+    <br>
+    <strong>The 19th edition of PacificVis will take place at the University of Technology Sydney (UTS) in Australia over April 2026.</strong>
   </p>
 
   <p>
-    We hope that all participants will enjoy PacificVis 2025!
+    We hope that all participants will enjoy PacificVis 2026!
   </p>
 
-  <p>
-    <h2>General Chair of PacificVis 2025</h2>
-    Ko-Chih Wang, National Taiwan Normal University
-  </p>
 
-  <p>
-    <h2>Chair of PacificVis Steering Committee</h2>
-    Issei Fujishiro, Keio University
+    <h2>Conference chairs of PacificVis 2026</h2>  
+    <p>
+   Quang Vinh Nguyen (Western Sydney University)<br>
+    Weidong (Tony) Huang  (University of Technology Sydney)<br>
+  Christy Jie Liang University of Technology Sydney
   </p>
-  
   
             <h2>Previous Events</h2>
 
-          <div class="previous event table">
+  
             <table>
               <thead><tr><th>Year</th><th>City</th><th>Dates</th><th>URL</th>
               </tr></thead>
               <tbody>
+               <tr><td>2025</td><td>Taipei</td><td>Apr 22 - Apr 25</td><td><a href="https://pacificvis2025.github.io/pages/index.html" target="_blank">Website</a></td></tr>
+
               <tr><td>2024</td><td>Tokyo</td><td>Apr 23 - Apr 26</td><td><a href="https://pacificvis.github.io/pvis2024/" target="_blank">Website</a></td></tr>
 
               <tr><td>2023</td><td>Seoul</td><td>Apr 18 - Apr 21</td><td><a href="https://pvis2023.github.io/pvis2023/" target="_blank">Website</a></td></tr>
@@ -127,12 +192,13 @@
               
               </tbody>
           </table>
-          </div>
-  
+   
   
   
   
   
     </main>
+    <footer><p>&copy; IEEE Pacific Visualization Conference 2026</p></footer>
+     <script src="js/script.js"></script>
 </body>
 </html>
