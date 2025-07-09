@@ -28,7 +28,7 @@ button, input[type="submit"], input[type="reset"] {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+
 }
 
 header {
@@ -36,12 +36,12 @@ header {
   /*  display: flex;
     justify-content: space-between;
     align-items: center; */
-    padding: 10px 20px;
     color: #263d91;
+    width: 80%; padding: 2% 10%
 }
 
 .logo {
-    font-weight: bold; width: 250px; padding: 20px;
+    font-weight: bold; width: 250px; ;
 }
 .logo img {width: 100%; }
 
@@ -55,11 +55,12 @@ header {
 main {
     padding: 0 10%; width: 80%
 }
-h1,h2,h3 { color: #263c91; padding-bottom: 5px; width: 100%}
+h1,h2,h3 { color: #263c91; padding-bottom: 5px; width: 100%; margin-bottom: 1em; }
 main a {color: #263c91}
-p {line-height: 2em; width: 100%}
+p {line-height: 2em; width: 100%; margin-bottom: 2em; }
 table { width: 100% }
 table td { padding: 5px}
+table th { padding: 5px; text-align: left; }
 footer { background-color: #263c91; color: white; text-align: center; padding: 40px; margin-top: 40px;  }
 
 
@@ -108,11 +109,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1600px;
+
   margin: 0 auto;
   column-gap: 2rem;
   height: 90px;
-  padding: 1.2rem 3rem;
+ 
 }
 
 .menu {
