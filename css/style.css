@@ -27,7 +27,7 @@ button, input[type="submit"], input[type="reset"] {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; overflow-x: hidden
 
 }
 
@@ -343,7 +343,7 @@ button {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.625rem;
-  margin: 0 2% 2% 2%; padding: 4% 2%; max-width: 320px;
+  margin: 0 2% 2% 2%; padding: 4% 2%; max-width: 320px; min-height: 190px;
     
     
 }
