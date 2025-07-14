@@ -334,7 +334,7 @@ button {
 
 .card {
      text-align: center;
-      float:left; width: 25%; 
+      float:left; width: 25%; margin-bottom: 1em
     }
 .card-body {
     position: relative;
@@ -367,7 +367,7 @@ button {
 }
 @media (max-width: 700px) {
 
-  .card { width: 50%; min-height: 230px }
+  .card { width: 50%; min-height: 220px;  }
   main {
     padding: 0 2%; width: 93%; overflow:hidden; position: relative; z-index; 0;
 }
