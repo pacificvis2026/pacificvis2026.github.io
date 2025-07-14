@@ -329,7 +329,7 @@ button {
 
 
 .row {
- float:left; margin-bottom: 1.5em; width: 95%;
+ float:left; margin-bottom: 1.5em; width: 100%;
 }
 
 .card {
@@ -369,6 +369,6 @@ button {
 
   .card { width: 50%; min-height: 230px }
   main {
-    padding: 0 2%; width: 90%; overflow:hidden; position: relative; z-index; 0;
+    padding: 0 2%; width: 93%; overflow:hidden; position: relative; z-index; 0;
 }
 }
