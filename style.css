@@ -375,3 +375,7 @@ button {
 }
 .sponsors a img { width: 100px;  }
 }
+
+.li {
+  margin: 10px 0;
+}
