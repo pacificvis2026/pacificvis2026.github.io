@@ -65,7 +65,8 @@ footer { background-color: #263c91; color: white; text-align: center; padding: 4
 .sponsors { width: 100%; display: block; padding: 0 0 3em 0; float:left;  }
 .sponsors a { width: 33%; float:left; text-align: center;  }
 .sponsors a img { width: 200px;   }
-
+main ul { list-style-type: circle; padding-bottom: 2em }
+main ul li { padding: 10px 0 0 0; margin-left: 40px }
 ul {
   list-style: none;
 }
