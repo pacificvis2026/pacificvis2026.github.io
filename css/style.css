@@ -67,6 +67,9 @@ footer { background-color: #263c91; color: white; text-align: center; padding: 4
 .sponsors a img { width: 200px;   }
 main ul { list-style-type: circle; padding-bottom: 2em }
 main ul li { padding: 10px 0 0 0; margin-left: 40px }
+.aff-table {padding: 30px 0;}
+.aff-table th { color: #263c91; }
+.aff-table td { border-top: 1px solid #eee; }
 ul {
   list-style: none;
 }
