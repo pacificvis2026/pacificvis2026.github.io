@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Program</title>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+main p {margin-bottom:0;}
+</style>
+</head>
+<body>
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/">
+            <img
+              src="images/pacificvis-2026-logo.png"
+            
+            />
+          </a>
+         <nav class="menu">
+            <ul class="menu-bar">
+              <li><a class="nav-link" href="/"><a href="/">Home</a></li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Contribute  ▾
+                </button>
+                <div id="dropdown" class="dropdown">
+                  <ul role="menu">
+                  <li><a class="dropdown-link"  href="common-call-for-papers.html" class="dropdown-item fade-page">Common Call for Papers</a></li>
+                      <li><a class="dropdown-link"  href="TVCG-journal-papers.html" class="dropdown-item fade-page">TVCG Journal Papers</a></li>
+                        <li><a class="dropdown-link"  href="conference-papers.html" class="dropdown-item fade-page">Conference Papers</a></li>
+                        <li><a  class="dropdown-link" href="short-papers.html" class="dropdown-item fade-page">Short Papers (VisNotes)</a></li>
+                        <li><a class="dropdown-link"  href="poster.html" class="dropdown-item fade-page">Posters</a></li>
+                            <li><a class="dropdown-link"  href="storytelling.html" class="dropdown-item fade-page">Visual Data Storytelling Contest</a></li>
+                        <li><a class="dropdown-link"  href="workshop.html" class="dropdown-item fade-page">Workshops</a></li>
+                        <li><a class="dropdown-link" href="paper-topics.html" class="dropdown-item fade-page">Paper Topics</a></li>
+                        <li><a class="dropdown-link"  href="paper-submission-guidelines.html" class="dropdown-item fade-page">Paper Submission Guidelines</a></li> 
+                  </ul>
+                </div>
+              </li>
+       <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Program  ▾
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+              <li><a class="dropdown-link" href="conference-program.html" class="dropdown-item fade-page">Conference Program</a></li>
+                        <li><a class="dropdown-link" href="keynotes.html" class="dropdown-item fade-page">Keynotes</a></li>
+                          <!--   <li><a class="dropdown-link" href="technical-sessions.html" class="dropdown-item fade-page">Technical Sessions</a></li> !-->
+                        <li><a class="dropdown-link" href="posters-and-visualstorytelling.html" class="dropdown-item fade-page">Posters & Visual Storytelling</a></li>
+                        <li><a class="dropdown-link" href="vis-meets-AI-workshop.html" class="dropdown-item fade-page">VisMeetsAI Workshop</a></li>
+                         <li><a class="dropdown-link" href="VA4MDS-workshop.html" class="dropdown-item fade-page">VA4MDS Workshop</a></li>
+                    <!--    <li><a class="dropdown-link" href="sci-vis-workshop.html" class="dropdown-item fade-page">SciVis Workshop</a></li> !-->
+                 </ul>
+                </div>
+              </li> 
+                <li><a class="nav-link" href="registration.html">Registration</a></li> 
+     			<li><a class="nav-link" href="committees.html">Committee</a></li>
+     		 <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                 Venue  ▾
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                	<li><a class="dropdown-link"  href="venue-information.html" class="dropdown-item fade-page">Venue Information</a></li>
+        			  <!-- <li><a class="dropdown-link"  href="reception.html" class="dropdown-item fade-page">Reception</a></li> !-->
+         			<li><a class="dropdown-link"  href="banquet.html" class="dropdown-item fade-page">Banquet</a></li>     </ul>
+                </div>
+              </li>
+            <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown4"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                Travel  ▾
+                </button>
+                <div id="dropdown4" class="dropdown">
+                  <ul role="menu">
+                			<li><a class="dropdown-link"  href="airport-to-sydney-CBD.html" class="dropdown-item fade-page">Airport to Sydney CBD</a></li>
+                        <li><a class="dropdown-link"  href="visa-information.html" class="dropdown-item fade-page">Visa Information</a></li>
+                       <!--  <li><a class="dropdown-link"  href="china-visitors.html" class="dropdown-item fade-page" style="display:none;">大陆与会者申请来台</a></li> !-->
+                        <li><a class="dropdown-link"  href="accommodations.html" class="dropdown-item fade-page">Accommodation</a></li>
+                        <li><a class="dropdown-link"  href="tourist-attractions.html" class="dropdown-item fade-page">Tourist Attractions</a></li>
+                        <li><a class="dropdown-link" href="food-and-shopping.html" class="dropdown-item fade-page">Food and Shopping</a></li>   
+         			 </ul>
+                </div>
+              </li> 
+                   <li><a class="nav-link" href="contact.html">Contact</a></li> 
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-end">
+
+          <div
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          ><img src="images/bars-solid.svg" style="width: 30px">
+     
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="splash">
+        <img src="images/pacificvis-2026-banner.png" alt="Splash Image">
+    </div>
+    <main>
+<h2>IEEE Pacific Visualization Conference 2026 (PacificVis)</h2>
+<h3>Coding</h3>
+
+<p style="margin-bottom:20px;"><strong><span style="background:#00ff00;">TVCG</span></strong> Papers accepted in Journal track (12 min talk + 3 min Q&amp;A)<br />
+<strong><span style="background:#00ffff;">Conf</span></strong> Papers accepted in Conference track (10 min talk + 2 min Q&amp;A)<br />
+<strong><span style="background:#ffff00;">Note</span></strong> Papers accepted in Visualization Notes track (8 min talk + 2 min Q&amp;A)<br />
+<strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Papers accepted in Vis meets AI workshop (12 min talk + 3 min Q&amp;A)<br />
+<strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> Papers accepted in the 1st International Workshop on Visual Analytics for Multimodal Data Streams (VA4MDS 2026) (12 min talk + 3 min Q&amp;A)</p>
+
+
+<h3>Main Conference Tracks</h3>
+
+<h3>Graph, Tree and Network Visualization (11:00am – 13:30pm)</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Graph Drawing Stress Model with Resistance Distances</p>
+<ul>
+<li>Yosuke Onoue (Nihon University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Clarity and Computational Efficiency of Orbital Boundary Labeling</p>
+<ul>
+<li>Markus Wallinger (Technical University of Munich)</li>
+<li>Annika Bonerath (University of Bonn)</li>
+<li>Soeren Terziadis (TU Eindhoven)</li>
+<li>Jules Wulms (TU Eindhoven)</li>
+<li>Martin Nöllenburg (TU Wien)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Constrained Graph Drawing by Stochastic Gradient Descent</p>
+<ul>
+<li>Haruki Ito (Nihon University)</li>
+<li>Yosuke Onoue (Nihon University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Minimizing Visual Clutter in Temporal Treemaps to Enable Comparison of Evolving Hierarchies</p>
+<ul>
+<li>Alexander Dobler (TU Wien)</li>
+<li>Son Le Thanh (KTH Royal Institute of Technology)</li>
+<li>Martin Nöllenburg (TU Wien)</li>
+<li>Tino Weinkauf (KTH Royal Institute of Technology)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Impact Factors for Crossing Perception in Stereoscopic 3D</p>
+<ul>
+<li>Ying Zhang (Universität Konstanz)</li>
+<li>Niklas Gröne (Universität Konstanz)</li>
+<li>Giuseppe Liotta (University of Perugia)</li>
+<li>Falk Schreiber (University of Konstanz)</li>
+<li>Karsten Klein (University of Konstanz)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Area-Adaptive Drawing of Rooted Trees with Variable Nodes: A Height-Balanced Layout Approach</p>
+<ul>
+<li>Shuma Yoshizaki (Nihon University)</li>
+<li>Yosuke Onoue (Nihon University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Change-Faithful Drawings of Dynamic Graphs</p>
+<ul>
+<li>Hengzhou Li (University of Sydney)</li>
+<li>Seok-Hee Hong (University of Sydney)</li>
+<li>Amyra Meidiana (University of Sydney)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Degree-Constrained β-Skeleton Shape-Based Metrics</p>
+<ul>
+<li>Rachel Kwok (University of Sydney)</li>
+<li>Seok-Hee Hong (University of Sydney)</li>
+<li>Amyra Meidiana (University of Sydney)</li>
+</ul>
+
+
+<h3>Visualization Techniques and Methods – Part I</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> VizDefender: Unmasking Visualization Tampering through Proactive Localization and Intent Inference</p>
+<ul>
+<li>Sicheng Song (East China Normal University)</li>
+<li>Yanjie Zhang (The Hong Kong University of Science and Technology)</li>
+<li>Zixin Chen (The Hong Kong University of Science and Technology)</li>
+<li>Huamin Qu (The Hong Kong University of Science and Technology)</li>
+<li>Changbo Wang (East China Normal University)</li>
+<li>Chenhui Li (East China Normal University, Shanghai)</li>
+<li>Sicheng Song (East China Normal University)</li>
+<li>Yanjie Zhang (The Hong Kong University of Science and Technology)</li>
+<li>Zixin Chen (The Hong Kong University of Science and Technology)</li>
+<li>Huamin Qu (The Hong Kong University of Science and Technology)</li>
+<li>Changbo Wang (East China Normal University)</li>
+<li>Chenhui Li (East China Normal University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> FLUID: A Neural Operator-based Framework for Learning Multi-Fidelity of Unstructured Data</p>
+<ul>
+<li>Yi-Tang Chen (The Ohio State University)</li>
+<li>Xihaier Luo (Brookhaven National Laboratory)</li>
+<li>Wei Xu (Brookhaven National Laboratory)</li>
+<li>Han-Wei Shen (The Ohio State University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events</p>
+<ul>
+<li>Mingzhe Li (University of Utah)</li>
+<li>Peer Nowack Karlsruhe (Institute of Technology, Karlsruhe)</li>
+<li>Bei Wang (University of Utah)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Locatability and Locatability Robustness of Visual Variables in Single Target Localization</p>
+<ul>
+<li>Wei Wei (University of Victoria)</li>
+<li>Miguel A Nacenta (University of Victoria)</li>
+<li>Michelle F Miranda (University of Victoria)</li>
+<li>Charles Perin (University of Victoria)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> A Four-Stage Framework of Visual Complexity and Trust as Mediated by Effort</p>
+<ul>
+<li>Kylie R. Lin (Georgia Institute of Technology)</li>
+<li>Hui Guan (University of Massachusetts)</li>
+<li>David N. Rapp (Northwestern University)</li>
+<li>Cindy Xiong Bearfield (Georgia Tech)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Supporting Multimodal Data Interaction on Refreshable Tactile Displays: An Architecture to Combine Touch and Conversational AI</p>
+<ul>
+<li>Samuel Reinders (Monash University)</li>
+<li>Munazza Zaib (Monash University)</li>
+<li>Matthew Butler (Monash University)</li>
+<li>Bongshin Lee (Yonsei University)</li>
+<li>Ingrid Zukerman (Monash University)</li>
+<li>Lizhen Qu (Monash University)</li>
+<li>Kim Marriott (Monash University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> DirectVis: Editing Code-Based Interactive Visualization with Direct Manipulation</p>
+<ul>
+<li>Jeongin Park (Seoul National University)</li>
+<li>Mingyu An (Seoul National University)</li>
+<li>Hyunseo Yang (Seoul National University)</li>
+<li>Junhyeong Hwangbo (Seoul National University)</li>
+<li>Min Hyeong Kim (Seoul National University)</li>
+<li>Min Hyeong Kim (Seoul National University)</li>
+<li>Jinwook Seo (Seoul National University)</li>
+</ul>
+  
+<h3>Visualization Techniques and Methods – Part II</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Analyzing Notebook Histories to Understand Data Visualization Workflows</p>
+<ul>
+<li>David Koop (Northern Illinois University)</li>
+<li>Colin Brown (Northern Illinois University)</li>
+<li>Hamed Alhoori (Northern Illinois University)</li>
+<li>Maoyuan Sun (Northern Illinois University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> ISilDR: Isometric-Seriation-Based Dimensionality Reduction for Visual Cluster Analysis</p>
+<ul>
+<li>Rene Cutura (University of Stuttgart)</li>
+<li>Sophie Sadler (University of Stuttgart)</li>
+<li>Quynh Quang Ngo (University of Stuttgart)</li>
+<li>Michael Aupetit (Qatar Computing Research Institute)</li>
+<li>Michael Sedlmair (University of Stuttgart)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Enhancing Line Density Plots with Outlier Control and Bin-based Illumination</p>
+<ul>
+<li>Yumeng Xue (University of Konstanz)</li>
+<li>Bin Chen (University of Konstanz)</li>
+<li>Patrick Paetzold (University of Konstanz)</li>
+<li>Yunhai Wang (Renmin University of China)</li>
+<li>Christophe Hurter (Université de Toulouse)</li>
+<li>Oliver Deussen (University of Konstanz)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> A Four-Stage Framework of Visual Complexity and Trust as Mediated by Effort</p>
+<ul>
+<li>Kylie R. Lin (Georgia Institute of Technology)</li>
+<li>Hui Guan (University of Massachusetts)</li>
+<li>David N. Rapp (Northwestern University)</li>
+<li>Cindy Xiong Bearfield (Georgia Tech)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Distribution-Informed Overviews for Quantitative Point Values</p>
+<ul>
+<li>David Koop (Northern Illinois University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Confirmation Bias Awareness in Visual Information Retrieval via LLM-Guided Interaction-Trace Monitoring</p>
+<ul>
+<li>Mariia Tytarenko (Graz University of Technology)</li>
+<li>Daniel Atzberger (Hasso Plattner Institute)</li>
+<li>Michael A. Bedek (University of Graz)</li>
+<li>Stefan Lengauer (Graz University of Technology)</li>
+<li>Tobias Schreck (Graz University of Technology)</li>
+</ul>
+
+
+<h3>AI and Visual LLM – Part I</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Illuminating LLM Coding Agents: Visual Analytics for Deeper Understanding and Enhancement</p>
+<ul>
+<li>Junpeng Wang (Visa Research)</li>
+<li>Yuzhong Chen (Visa Research)</li>
+<li>Menghai Pan (Visa Research)</li>
+<li>Chin-Chia Michael Yeh (Visa Research)</li>
+<li>Mahashweta Das (Visa Research)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> RAGExplorer: A Visual Analytics System for the Comparative Diagnosis of RAG Systems</p>
+<ul>
+<li>Haoyu Tian ( Zhejiang University)</li>
+<li>Yingchaojie Feng (National University of Singapore)</li>
+<li>Zhen Wen (Zhejiang University)</li>
+<li>Haoxuan Li (Zhejiang University)</li>
+<li>Minfeng Zhu (Zhejiang University)</li>
+<li>Wei Chen (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> From Static to Interactive: Authoring Interactive Visualizations via Natural Language</p>
+<ul>
+<li>Can Liu (Nanyang Technological University)</li>
+<li>Jaeuk Lee (Ajou University)</li>
+<li>Tianhe Chen (Nanyang Technological University)</li>
+<li>Zhibang Jiang (Providence Health & Services)</li>
+<li>Xiaolin Wen (Nanyang Technological University)</li>
+<li>Yong WANG (Nanyang Technological University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> When Users Don’t Specify: How LLMs Make Design Decisions in Underspecified Data Visualization Contexts</p>
+<ul>
+<li>Jaeseong Ju (Seoul National University)</li>
+<li>Jaeeun Seo (Seoul National University)</li>
+<li>Jiwon Jang (Seoul National University)</li>
+<li>Dokyung Lee (Seoul National University)</li>
+<li>Hyunwoo Park (Seoul National University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Evaluating the Impact of Prompt Engineering Techniques on the Visualization Literacy of Large Language Models</p>
+<ul>
+<li>Adrian Jobst (Hasso Plattner Institute)</li>
+<li>Daniel Atzberger (Hasso Plattner Institute)</li>
+<li>Mariia Tytarenko (TU Graz)</li>
+<li>Willy Scheibel (Hasso Plattner Institute)</li>
+<li>Jürgen Döllner (Hasso Plattner Institute)</li>
+<li>Tobias Schreck (Graz University of Technology)</li>
+</ul>
+
+<h3>AI and Visual LLM – Part I</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Illuminating LLM Coding Agents: Visual Analytics for Deeper Understanding and Enhancement</p>
+<ul>
+<li>Junpeng Wang (Visa Research)</li>
+<li>Yuzhong Chen (Visa Research)</li>
+<li>Menghai Pan (Visa Research)</li>
+<li>Chin-Chia Michael Yeh (Visa Research)</li>
+<li>Mahashweta Das (Visa Research)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> RAGExplorer: A Visual Analytics System for the Comparative Diagnosis of RAG Systems</p>
+<ul>
+<li>Haoyu Tian (Zhejiang University)</li>
+<li>Yingchaojie Feng (National University of Singapore)</li>
+<li>Zhen Wen (Zhejiang University)</li>
+<li>Haoxuan Li (Zhejiang University)</li>
+<li>Minfeng Zhu (Zhejiang University)</li>
+<li>Wei Chen (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> From Static to Interactive: Authoring Interactive Visualizations via Natural Language</p>
+<ul>
+<li>Can Liu (Nanyang Technological University)</li>
+<li>Jaeuk Lee (Ajou University)</li>
+<li>Tianhe Chen (Nanyang Technological University)</li>
+<li>Zhibang Jiang (Providence Health & Services)</li>
+<li>Xiaolin Wen (Nanyang Technological University)</li>
+<li>Yong WANG (Nanyang Technological University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> When Users Don’t Specify: How LLMs Make Design Decisions in Underspecified Data Visualization Contexts</p>
+<ul>
+<li>Jaeseong Ju (Seoul National University)</li>
+<li>Jaeeun Seo (Seoul National University)</li>
+<li>Jiwon Jang (Seoul National University)</li>
+<li>Dokyung Lee (Seoul National University)</li>
+<li>Hyunwoo Park (Seoul National University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Evaluating the Impact of Prompt Engineering Techniques on the Visualization Literacy of Large Language Models</p>
+<ul>
+<li>Adrian Jobst (Hasso Plattner Institute)</li>
+<li>Daniel Atzberger (Hasso Plattner Institute)</li>
+<li>Mariia Tytarenko (TU Graz)</li>
+<li>Willy Scheibel (Hasso Plattner Institute)</li>
+<li>Jürgen Döllner (Hasso Plattner Institute)</li>
+<li>Tobias Schreck (Graz University of Technology)</li>
+</ul>
+
+
+<h3>AI and Visual LLM – Part II</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models</p>
+<ul>
+<li>Zhenning Chen (Zhejiang University)</li>
+<li>Hanbei Zhan (Zhejiang University)</li>
+<li>Yanwei Huang (HKUST)</li>
+<li>Xin Wu (South China University of Technology)</li>
+<li>Dazhen Deng (Zhejiang University)</li>
+<li>Di Weng (Zhejiang University)</li>
+<li>Yingcai Wu (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> BiasField: Interactive Bias Probing of Machine Learning Datasets</p>
+<ul>
+<li>Zhen Li (Tsinghua University)</li>
+<li>Weikai Yang (Hong Kong University of Science and Technology, Guangzhou)</li>
+<li>Xinhuan Shu (Newcastle University)</li>
+<li>Jiangning Zhu (Tsinghua University)</li>
+<li>Hui Zhang (Tsinghua University)</li>
+<li>Shixia Liu (Tsinghua University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> Towards Explainable Quantum AI: Informing the Encoder Selection of Quantum Neural Networks via Visualization</p>
+<ul>
+<li>Shaolun Ruan (Singapore Management University, Monash University)</li>
+<li>Feng Liang (Nanyang Technological University)</li>
+<li>Rohan Ramakrishna (Nanyang Technological University)</li>
+<li>Chao Ren (KTH Royal Institute of Technology)</li>
+<li>Rudai Yan (Nanyang Technological University)</li>
+<li>Qiang Guan (Kent State University)</li>
+<li>Jiannan Li (Singapore Management University)</li>
+<li>Yong Wang (Nanyang Technological University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> InScribe: Intelligent Augmentation of Natural-Language Statements with Data Facts</p>
+<ul>
+<li>Chuer Chen (Shanghai Research Institute for Intelligent Autonomous Systems)</li>
+<li>Yuqi Liu (Tongji University)</li>
+<li>Danqing Shi (University of Cambridge)</li>
+<li>ShiXiong Cao (Tongji University)</li>
+<li>Nan Cao (Tongji College of Design and Innovation)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Identifying OM4AnI’s Effectiveness in the Context of Explainable AI</p>
+<ul>
+<li>Liqun Liu (University of Leeds)</li>
+<li>Leonid Bogachev (University of Leeds)</li>
+<li>Mahdi Rezaei (University of Leeds)</li>
+<li>Nishant Ravikumar (University of Leeds)</li>
+<li>Arjun Khara (University of Leeds)</li>
+<li>Mohsen Azarmi (University of Leeds)</li>
+<li>Roy A Ruddle (University of Leeds)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition</p>
+<ul>
+<li>Jae Young Choi (KAIST)</li>
+<li>Seon Gyeom Kim (KAIST)</li>
+<li>Hyungjun Yoon (KAIST)</li>
+<li>Taeckyung Lee (KAIST)</li>
+<li>Donggun Lee (KAIST)</li>
+<li>Jaeryung Chung (KAIST)</li>
+<li>Jihyung Kil (Adobe Research)</li>
+<li>Ryan Rossi (Adobe Research)</li>
+<li>Sung-Ju Lee (KAIST)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> From Intent to Action with Conversational Orchestrated Visual Analytics: A Case Study on Network Analysis</p>
+<ul>
+<li>Takuma Shirashoji (Nihon University)</li>
+<li>Yosuke Onoue (Nihon University)</li>
+</ul>
+
+<h3>Scientific and Biomedical Visualization</h3>
+
+<p><strong><span style="background:#00ff00;color:#000;">TVCG</span></strong> Probabilistic Inclusion Depth for Fuzzy Contour Ensemble Visualization</p>
+<ul>
+  <li>Cenyang Wu (Peking University)</li>
+  <li>Daniel Klötzl (University of Stuttgart)</li>
+  <li>Qinhan Yu (Peking University)</li>
+  <li>Shudan Guo (Peking University)</li>
+  <li>Runhao Lin (Peking University)</li>
+  <li>Daniel Weiskopf (University of Stuttgart)</li>
+  <li>Liang Zhou (Peking University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;color:#000;">TVCG</span></strong> Memory-Aware External Facelist Calculation: A Data-Parallel Atomic Hash Counting Approach</p>
+<ul>
+  <li>Spiros Tsalikis (Kitware, University of North Carolina at Chapel Hill)</li>
+  <li>Will J Schroeder (Kitware)</li>
+  <li>Daniel Szafir (University of North Carolina at Chapel Hill)</li>
+  <li>Kenneth Moreland (Oak Ridge National Laboratory)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;color:#000;">TVCG</span></strong> A Topology-Preserving Coreset for Kernel Regression in Scientific Visualization</p>
+<ul>
+  <li>Weiran Lyu (University of Utah)</li>
+  <li>Nathaniel Gorski (University of Utah)</li>
+  <li>Jeff M. Phillips (University of Utah)</li>
+  <li>Bei Wang (University of Utah)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;color:#000;">Conf</span></strong> Striking a Balance: Evaluating How Aggregations of Multiple Forecasts Impact Decision Making</p>
+<ul>
+  <li>Ruishi Zou (University of California, San Diego)</li>
+  <li>Siyi Wu (University of Toronto)</li>
+  <li>Racquel Fygenson (Northeastern University)</li>
+  <li>Bingsheng Yao (Northeastern University)</li>
+  <li>Dakuo Wang (Northeastern University)</li>
+  <li>Lace M. Padilla (Northeastern University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;color:#000;">Conf</span></strong> NARVis: Neural Accelerated Rendering for Real-Time Scientific Point Cloud Visualization</p>
+<ul>
+  <li>Srinidhi Hegde (University of Maryland College Park)</li>
+  <li>Kaur Kullman (University of Maryland Baltimore County)</li>
+  <li>Thomas Grubb (NASA Goddard Space Flight Center)</li>
+  <li>Leslie Lait (NASA Ames Research Center)</li>
+  <li>Stephen Guimond (Hampton University)</li>
+  <li>Matthias Zwicker (University of Maryland)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;color:#000;">Conf</span></strong> OntoGrid: Supporting Analysis of Complex Associations in Biomedical Ontologies</p>
+<ul>
+  <li>Ying Yang (Monash University)</li>
+  <li>Michael Wybrow (Monash University)</li>
+  <li>Yuan-Fang Li (Monash University)</li>
+  <li>Tobias Czauderna (University of Applied Sciences Mittweida)</li>
+  <li>Yongqun He (University of Michigan Medical School)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;color:#000;">Note</span></strong> SensorVis: A Visualization System for Data-Driven Design of MOS Gas-Sensing Materials</p>
+<ul>
+  <li>Xiaoya Xie (Zhejiang University)</li>
+  <li>Zihao Liu (Zhejiang University)</li>
+  <li>Yingchaojie Feng (National University of Singapore)</li>
+  <li>Fei Wang (Zhejiang University)</li>
+  <li>Huihao Wang (Zhejiang University)</li>
+  <li>Xing Chen (Zhejiang University)</li>
+</ul>
+
+<h3>3D, Immersive Visualization and Applications</h3>
+
+<p><strong><span style="background:#00ff00;color:#000;">TVCG</span></strong> Volume Encoding Gaussians: Transfer Function-Agnostic 3D Gaussians for Volume Rendering</p>
+<ul>
+  <li>Landon Dyken (University of Illinois Chicago)</li>
+  <li>Andres Role Sewell (Utah State University)</li>
+  <li>Will Usher (Luminary Cloud)</li>
+  <li>Nathan Debardeleben (Los Alamos National Laboratory)</li>
+  <li>Steve Petruzza (Utah State University)</li>
+  <li>Sidharth Kumar (University of Illinois at Chicago)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;color:#000;">Conf</span></strong> REV-INR: Regularized Evidential Implicit Neural Representation for Uncertainty-Aware Volume Visualization</p>
+<ul>
+  <li>Shanu Saklani (Indian Institute of Technology Kanpur)</li>
+  <li>Tushar M. Athawale (Oak Ridge National Laboratory)</li>
+  <li>Nairita Pal (Indian Institute of Technology Kharagpur)</li>
+  <li>David Pugmire (Oak Ridge National Laboratory)</li>
+  <li>Chris R. Johnson (University of Utah)</li>
+  <li>Soumya Dutta (Indian Institute of Technology Kanpur)</li>
+</ul>
+
+<h3>3D, Immersive Visualization and Applications</h3>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> LandSAR: Visceralizing Landslide Data for Enhanced Situational Awareness in Immersive Analytics</p>
+<ul>
+  <li>Wong Kam-Kwai (The Hong Kong University of Science and Technology)</li>
+  <li>Yilin Ye (The Hong Kong University of Science and Technology)</li>
+  <li>Wai Tong (Texas A&M University)</li>
+  <li>Haobo Li (The Hong Kong University of Science and Technology)</li>
+  <li>Kentaro Takahira (The Hong Kong University of Science and Technology)</li>
+  <li>Aastha Bhatta (The Hong Kong University of Science and Technology)</li>
+  <li>Sunil Poudyal (The Hong Kong University of Science and Technology)</li>
+  <li>Charles Wang Wai Ng (The Hong Kong University of Science and Technology)</li>
+  <li>Huamin Qu (The Hong Kong University of Science and Technology)</li>
+  <li>Leni Yang (Inria)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Automated Assessment of VR UI Layouts Using Large Language Models</p>
+<ul>
+  <li>Zijie Zheng (University of Chinese Academy of Sciences)</li>
+  <li>Qing Lu (Tianjin University of Technology)</li>
+  <li>Qiuxu Yu (University of Chinese Academy of Sciences)</li>
+  <li>Jiuyang Li (University of Chinese Academy of Sciences)</li>
+  <li>Yu He (Chinese Academy of Sciences)</li>
+  <li>Ge Yu (Chinese Academy of Sciences)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> AstroVis: A Cloud-Streaming Octree System for Web-Based Astronomical Visualization</p>
+<ul>
+  <li>Chunyu Jiang (Xi'an Jiaotong-Liverpool University)</li>
+  <li>Zonglin Tian (Beijing Institution of Graphics and Communication)</li>
+  <li>Yuchen Gu (Xi'an Jiaotong-Liverpool University)</li>
+  <li>Xinrui Wu (Xi'an Jiaotong-Liverpool University)</li>
+  <li>Yushi Li (Xi'an Jiaotong-Liverpool University)</li>
+  <li>Yunzhe Wang (Suzhou University of Science and Technology)</li>
+  <li>Chengtao Ji (Xi'an Jiaotong-Liverpool University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> A Declarative Grammar for Interactive Trajectory Visualization: Interaction as First-Class Component</p>
+<ul>
+  <li>Shifu Chen (Zhejiang University)</li>
+  <li>Xiaodan Miao (Zhejiang University)</li>
+  <li>Zikun Deng (South China University of Technology)</li>
+  <li>Dazhen Deng (Zhejiang University)</li>
+  <li>Di Weng (Zhejiang University)</li>
+  <li>Yingcai Wu (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Digital Preservation and Cultural Computing Practice: A Multidimensional Quantitative Model and Visualisation System for the Illustrated Catalogue of Famous Porcelains Through the Ages</p>
+<ul>
+  <li>Liwen Zhang (Beijing Jiaotong University)</li>
+  <li>Yiqi Liu (Beijing Jiaotong University)</li>
+  <li>Zheng Wang (Beijing Jiaotong University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Affordable Visual Analytics for Amateur Football (Soccer)</p>
+<ul>
+  <li>Joshua Langmead (Monash University)</li>
+  <li>Sarah Goodwin (Monash University)</li>
+  <li>Benjamin Tag (Monash University)</li>
+</ul>
+
+<h3>Applications</h3>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> RCInvestigator: Towards Better Investigation of Anomaly Root Causes in Cloud Computing Systems</p>
+<ul>
+  <li>Shuhan Liu (Zhejiang University)</li>
+  <li>Yunfan Zhou (Zhejiang University)</li>
+  <li>Jue Zhang (Microsoft, Beijing)</li>
+  <li>Shandan Zhou (Microsoft, Redmond)</li>
+  <li>Weiwei Cui (Microsoft, Beijing)</li>
+  <li>Qingwei Lin (Microsoft, Beijing)</li>
+  <li>Thomas Moscibroda (Microsoft, Redmond)</li>
+  <li>Haidong Zhang (Microsoft, Beijing)</li>
+  <li>Di Weng (Zhejiang University)</li>
+  <li>Yingcai Wu (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ff00;">TVCG</span></strong> TimeScape: Multi-Resolution Visual Exploration for Wandering through Historical Figures</p>
+<ul>
+  <li>Chiteng Ma (Peking University)</li>
+  <li>Xinyue Chen (Peking University)</li>
+  <li>Keli Gao (University of Science and Technology Beijing)</li>
+  <li>Rui Shi (Peking University)</li>
+  <li>Xiaoru Yuan (Peking University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> HookLens: Visual Analytics for Understanding React Hooks Structures</p>
+<ul>
+  <li>Suyeon Hwang (Seoul National University)</li>
+  <li>Minkyu Kweon (Seoul National University)</li>
+  <li>Jeongmin Rhee (Seoul National University)</li>
+  <li>Soohyun Lee (Seoul National University)</li>
+  <li>Seokhyeon Park (Seoul National University)</li>
+  <li>Seokweon Jung (Seoul National University)</li>
+  <li>Hyeon Jeon (Seoul National University)</li>
+  <li>Jinwook Seo (Seoul National University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Data Visualization in High School Education: A Participatory and Cooperative Design Study</p>
+<ul>
+  <li>Line Have Musaeus (Aarhus University)</li>
+  <li>Thomas Thomsen (Aarhus University)</li>
+  <li>Hans-Jörg Schulz (Aarhus University)</li>
+  <li>Niklas Elmqvist (Aarhus University)</li>
+  <li>Clemens Nylandsted Klokmose (Aarhus University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> TrajectoryCurer: Visual Analysis of Trajectory Data Quality</p>
+<ul>
+  <li>Xiaodan Miao (Zhejiang University)</li>
+  <li>Sitong Pan (Zhejiang University)</li>
+  <li>Shifu Chen (Zhejiang University)</li>
+  <li>Di Weng (Zhejiang University)</li>
+  <li>Yingcai Wu (Zhejiang University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems</p>
+<ul>
+  <li>Leixian Shen (The Hong Kong University of Science and Technology)</li>
+  <li>Yan Luo (The Hong Kong University of Science and Technology)</li>
+  <li>Rui Sheng (The Hong Kong University of Science and Technology)</li>
+  <li>Yujia He (The Hong Kong University of Science and Technology)</li>
+  <li>Haotian Li (The Hong Kong University of Science and Technology)</li>
+  <li>Leni Yang (The Hong Kong University of Science and Technology)</li>
+  <li>Huamin Qu (The Hong Kong University of Science and Technology)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> "Dizzying and Unpleasant to Look At": Usability and Accessibility Challenges in Everyday Data Visualisations for Autistic Adults</p>
+<ul>
+  <li>Mona Alzahrani (Monash University)</li>
+  <li>Alexandra Louise Uitdenbogerd (RMIT University)</li>
+  <li>Benjamin Tag (University of New South Wales)</li>
+  <li>Leona M Holloway (Monash University)</li>
+  <li>Beth Johnson (Monash University)</li>
+  <li>Michael Wybrow (Monash University)</li>
+</ul>
+
+<h2>Taxonomy, Generative AI and Creative Visualization Tools</h2>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> InfoCIR: Multimedia Analysis for Composed Image Retrieval</p>
+<ul>
+  <li>Ioannis Dravilas (University of Amsterdam)</li>
+  <li>Ioannis Kapetangeorgis (University of Amsterdam)</li>
+  <li>Anastasios Latsoudis (University of Amsterdam)</li>
+  <li>Conor T McCarthy (Universiteit van Amsterdam)</li>
+  <li>Gonçalo Marcelino (University of Amsterdam)</li>
+  <li>Marcel Worring (University of Amsterdam)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> Intelligent Drill-Down: Large Language Model-Driven Drill-Down Technique for Human-AI Collaborative Visual Exploration</p>
+<ul>
+  <li>Zhijun Zheng (Fudan University)</li>
+  <li>Tian Qiu (Fudan University)</li>
+  <li>Yuheng Zhao (Fudan Univerisity)</li>
+  <li>Siming Chen (Fudan University)</li>
+</ul>
+
+<p><strong><span style="background:#00ffff;">Conf</span></strong> NotebookRAG: Retrieving Multiple Notebooks to Augment the Generation of EDA Notebooks for Crowd-Wisdom</p>
+<ul>
+  <li>Yi Shan (Fudan University)</li>
+  <li>Yixuan He (Fudan University)</li>
+  <li>Zekai Shao (Fudan University)</li>
+  <li>Kai Xu (University of Nottingham)</li>
+  <li>Siming Chen (Fudan University)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> BeautiVis: An Annotated Visualization Dataset from Reddit’s r/dataisbeautiful</p>
+<ul>
+  <li>Kylie Lin (Georgia Tech)</li>
+  <li>Sean Ru (Georgia Tech)</li>
+  <li>Minsuk Chang (Georgia Tech)</li>
+  <li>Cindy Xiong Bearfield (Georgia Tech)</li>
+</ul>
+
+<p><strong><span style="background:#ffff00;">Note</span></strong> Glow with the Flow: AI-Assisted Creation of Ambient Lightscapes for Music Videos</p>
+<ul>
+  <li>Frederic Anthony Robinson (Dolby Laboratories)</li>
+  <li>Vishnu Raj (Dolby Laboratories)</li>
+  <li>David Cooper (Dolby Laboratories)</li>
+  <li>Fan Du (Dolby Laboratories)</li>
+  <li>David Gunawan (Dolby Laboratories)</li>
+</ul>
+
+<h3>Vis Meets AI (VisMeetAI)</h3>
+
+<h4>Visual Communication with AI</h4>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Agentic Scientific Visualization Generation and Caption Semantic Alignment</p>
+<ul>
+  <li>Xuyi Lu (University of Chinese Academy of Sciences)</li>
+  <li>Guan Li (University of Chinese Academy of Sciences)</li>
+  <li>Yu Dong (Chinese Academy of Sciences)</li>
+  <li>Ruixiao Peng (University of Chinese Academy of Sciences)</li>
+  <li>Zhe Wang (Chinese Academy of Sciences)</li>
+  <li>Dong Tian (University of Chinese Academy of Sciences)</li>
+  <li>Guihua Shan (Chinese Academy of Sciences)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> NarratorVis: Automated Context-Aware Visual Data Story Generation Using Rule-Based Approach and Large Language Model</p>
+<ul>
+  <li>Yu-Ling Wang (National Taiwan Normal University)</li>
+  <li>Nathania Josephine (University of Utah)</li>
+  <li>Ko-Chih Wang (National Taiwan Normal University)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> From Perceived Transparency to Trustworthiness: Testing the CNM Framework in Government AI Policy Communication</p>
+<ul>
+  <li>Yongqing Chen (University of Technology Sydney)</li>
+  <li>Christy Jie Liang (University of Technology Sydney)</li>
+  <li>Nina Errey (University of Technology Sydney)</li>
+  <li>Zowghi Dida (Data61, CSIRO)</li>
+  <li>Muneera Bano (Data61 CSIRO)</li>
+  <li>Kaye Chan (University of Technology Sydney)</li>
+  <li>Jane Hogan (University of Technology Sydney)</li>
+</ul>
+
+<h4>Trust and Human Understanding of AI</h4>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> InteractiveKG: Transparent and User-Controllable Knowledge Graph Reasoning</p>
+<ul>
+  <li>Minchan Kim (Seoul National University)</li>
+  <li>Yanjie Zhao (Seoul National University)</li>
+  <li>Jaeseong Ju (Seoul National University)</li>
+  <li>Jaeeun Seo (Seoul National University)</li>
+  <li>Hyunwoo Park (Seoul National University)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Seeing Graphs Like Humans: Benchmarking Computational Measures and MLLMs for Similarity Assessment</p>
+<ul>
+  <li>Seokweon Jung (KAIST, Seoul National University)</li>
+  <li>Jeongmin Rhee (Seoul National University)</li>
+  <li>Seoyoung Doh (Seoul National University)</li>
+  <li>Hyeon Jeon (Seoul National University)</li>
+  <li>Ghulam Jilani Quadri (University of Oklahoma)</li>
+  <li>Jinwook Seo (Seoul National University)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Demystifying UMAP Artifacts: An Interactive Study on Diagnosis and Steering using 3D Probes</p>
+<ul>
+  <li>Bin Chen (University of Konstanz, Konstanz)</li>
+  <li>Yumeng Xue (University of Konstanz)</li>
+  <li>Patrick Paetzold (University of Konstanz)</li>
+  <li>Oliver Deussen (University of Konstanz)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Toward Reliable Scientific Visualization Pipeline Construction with Structure-Aware Retrieval-Augmented LLMs</p>
+<ul>
+  <li>Guanghui Zhao (University of Chinese Academy of Sciences)</li>
+  <li>Zhe Wang (Chinese Academy of Sciences)</li>
+  <li>Yu Dong (Chinese Academy of Sciences)</li>
+  <li>Guan Li (Chinese Academy of Sciences)</li>
+  <li>Guihua Shan (Chinese Academy of Sciences)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Evaluating the Utility of Feature Importance Visualizations in SHAP</p>
+<ul>
+  <li>Dennis Collaris (Utrecht University)</li>
+  <li>Yu Liang (Eindhoven University of Technology)</li>
+  <li>Martijn C. Willemsen (Eindhoven University of Technology)</li>
+  <li>Angelos Chatzimparmpas (Utrecht University)</li>
+  <li>Jarke van Wijk (Eindhoven University of Technology)</li>
+</ul>
+
+<h4>Visual Analytics for AI Models</h4>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> DAttnVis: Attention-Guided Visual Diagnostics for Stable Diffusion Inference in Image Generation</p>
+<ul>
+  <li>Yi Chen (Beijing Technology and Business University)</li>
+  <li>Xue Liang (Beijing Technology and Business University)</li>
+  <li>Cheng Lv (Beijing Technology and Business University)</li>
+</ul>
+
+<p><strong><span style="background:#808000;color:#fff;">VisMeetAI</span></strong> Visual Analytics Approach to Exploring Regional Physical Processes Reflected in Generative Climate Downscaling Models</p>
+<ul>
+  <li>Pei-Chen Chang (National Taiwan Normal University)</li>
+  <li>Zheng-Han Huang (National Taiwan Normal University)</li>
+  <li>Wan-Ling Tseng (National Tsing Hua University, National Taiwan University)</li>
+  <li>Yi-Chi Wang (Swedish Meteorological and Hydrological Institute)</li>
+  <li>Hsin-Chien Liang (Academia Sinica)</li>
+  <li>Che-Ta Chen (National Taiwan Normal University)</li>
+  <li>Ko-Chih Wang (National Taiwan Normal University)</li>
+</ul>
+
+<h3>1st International Workshop on Visual Analytics for Multimodal Data Streams (VA4MDS 2026)</h3>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> T2VTree: User-Centered Visual Analytics for Agent-Assisted Thought-to-Video Authoring</p>
+<ul>
+  <li>Zhuoyun Zheng (University of Chinese Academy of Sciences)</li>
+  <li>Yu Dong (University of Chinese Academy of Sciences)</li>
+  <li>GAORONG LIANG (University of Chinese Academy of Sciences)</li>
+  <li>Guan Li (University of Chinese Academy of Sciences)</li>
+  <li>Guihua Shan (University of Chinese Academy of Sciences)</li>
+  <li>Shiyu Cheng (University of Chinese Academy of Sciences)</li>
+  <li>Dong Tian (University of Chinese Academy of Sciences)</li>
+  <li>Jianlong Zhou (University of Technology Sydney, Sydney, NSW, Australia)</li>
+  <li>Christy Jie Liang (University of Technology Sydney)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> B-Map: Revealing Media Bias in News Articles with a Map Metaphor</p>
+<ul>
+  <li>Xinyue Chen (China Peking University)</li>
+  <li>Shuai Chen (Jiangsu Ocean University)</li>
+  <li>Xiaoru Yuan (China Peking University)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> Multimodal 3D Monitoring and Visual Analytics via Dynamic Frequency Residual Splatting</p>
+<ul>
+  <li>Yongfeng Shan (University of Technology Sydney)</li>
+  <li>Christy Jie Liang (University of Technology Sydney)</li>
+  <li>Daming Luo (University of Technology Sydney)</li>
+  <li>Chenxuan Zhou (University of Technology Sydney)</li>
+  <li>Xiaoru Yuan (Peking University)</li>
+  <li>Robert Wu (University of Technology Sydney)</li>
+  <li>Jun Li (University of Technology Sydney)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> Harm-Based Crime Severity Scoring Framework for Analytical Time-Series Prediction</p>
+<ul>
+  <li>Veli Oz (Charles Darwin University)</li>
+  <li>Reem E. Mohamed (Charles Darwin University)</li>
+  <li>Asif Karim (Charles Darwin University)</li>
+  <li>Sami Azam (Charles Darwin University)</li>
+  <li>Arman Far (Crown Institute of Higher Education)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> Visual Analytics of Harmonised Clinical and Survey Data for Cardiovascular Risk Modelling</p>
+<ul>
+  <li>Reem E. Mohamed (Charles Darwin University)</li>
+  <li>Sami Azam (Charles Darwin University)</li>
+  <li>Hashini Moses (DHL IT Services)</li>
+  <li>Arman Far (Crown Institute of Higher Education)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> A Time-Grounded Bengali Political Sentiment Dataset for Temporal Visual Analytics of Fine-Grained Political Sentiment Evolution</p>
+<ul>
+  <li>Badrun Nahar Luna (Bangladesh University of Business and Technology)</li>
+  <li>Adib Mahmud (Bangladesh University of Business and Technology)</li>
+  <li>Nazifa Jerin Reshni (Bangladesh University of Business and Technology)</li>
+  <li>Abdullah Al Maruf (Charles Darwin University)</li>
+  <li>Weidong Huang (University of Technology Sydney)</li>
+  <li>Md Rafiqul Islam (Charles Darwin University)</li>
+</ul>
+
+<p><strong><span style="background:#800080;color:#fff;">VA4MDS</span></strong> A Survey on Generative AI Ethics Literacy Within Metaverse</p>
+<ul>
+  <li>Zhuyun Zhong (University of Technology Sydney)</li>
+  <li>Jianlong Zhou (University of Technology Sydney)</li>
+  <li>Weidong Huang (University of Technology Sydney)</li>
+</ul>
+  
+    </main>
+      <footer><p>&copy; IEEE Pacific Visualization Conference 2026</p></footer>
+     <script src="js/script.js"></script>
+</body>
+</html>
